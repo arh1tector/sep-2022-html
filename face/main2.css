@@ -1,1 +1,51 @@
-body
+.container{
+    width: 100%;
+    height: 100vh;
+    background: lawngreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 25%;
+    height: 500px;
+    background: silver;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fa-square-heart{
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+.icon{
+    width: 100%;
+    height: 50px;
+    background: aqua;
+    border: 2px solid red;
+}
+.inner{
+    width: 100%;
+    /*height: 50px;*/
+    /*background: yellow;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 100%;
+    height: 150px;
+    /*background: seagreen;*/
+    margin: 0;
+    text-align: justify;
+}
+.button{
+    width: 100%;
+    height: 50px;
+    /*background: blueviolet;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
